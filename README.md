@@ -226,7 +226,7 @@ In this session we'll cover:
         <div style="color: #666; font-size: 13px; margin-bottom: 4px;">2026-01-06</div>
         <div style="font-size: 16px; line-height: 1.3; margin-bottom: 6px;"><strong>#39</strong>: Understanding Latency in AI Applications</div>
         <div style="font-size: 13px; color: #666;">
-          <a href="https://www.youtube.com/watch?v=wadVIkJnjQE">watch</a> • <a href="./2026-01-06-understanding-latency">code</a>
+          <a href="https://www.youtube.com/watch?v=wadVIkJnjQE">watch</a> • <a href="./2026-01-06-latency">code</a>
         </div>
       </div>
     </td><td><div style="padding: 8px 0; line-height: 1.5;">A deep dive into performance engineering for AI applications. We explore all the bottlenecks

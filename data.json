@@ -147,11 +147,11 @@
       "isWorkshop": false
     },
     {
-      "folder": "2026-01-06-understanding-latency",
+      "folder": "2026-01-06-latency",
       "guid": "aitw-039",
       "title": "Understanding Latency in AI Applications",
       "description": "A deep dive into performance engineering for AI applications. We explore all the bottlenecks\nin agent systems - from prompt caching and token optimization to semantic streaming and UI design.\nLearn how to make your agents feel faster through strategic latency reduction and smart UX choices.\n",
-      "event_link": "https://luma.com/12-factors-to-coding-agents",
+      "event_link": "https://luma.com/baml",
       "eventDate": "2026-01-06T18:00:00Z",
       "event_type": "episode",
       "media": {
@@ -160,7 +160,7 @@
       },
       "links": {
         "youtube": "https://www.youtube.com/watch?v=wadVIkJnjQE",
-        "code": "https://github.com/ai-that-works/ai-that-works/tree/main/2026-01-06-understanding-latency"
+        "code": "https://github.com/ai-that-works/ai-that-works/tree/main/2026-01-06-latency"
       },
       "season": 2,
       "episode": 39,
@@ -1033,7 +1033,7 @@
       1,
       2
     ],
-    "lastUpdated": "2026-02-23T15:31:11.203Z",
+    "lastUpdated": "2026-02-23T15:33:29.388Z",
     "generatedBy": "validate-metadata.ts"
   }
 }

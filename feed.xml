@@ -16,7 +16,7 @@
       <link>https://github.com/ai-that-works/ai-that-works</link>
     </image>
     <atom:link href="https://github.com/ai-that-works/ai-that-works/raw/main/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 23 Feb 2026 15:31:11 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Feb 2026 15:33:29 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <item>
       <title><![CDATA[AI Content Pipeline Revisited]]></title>
@@ -165,8 +165,8 @@ Learn how to make your agents feel faster through strategic latency reduction an
 
 
 Watch: https://www.youtube.com/watch?v=wadVIkJnjQE
-Code: https://github.com/ai-that-works/ai-that-works/tree/main/2026-01-06-understanding-latency
-Event: https://luma.com/12-factors-to-coding-agents
+Code: https://github.com/ai-that-works/ai-that-works/tree/main/2026-01-06-latency
+Event: https://luma.com/baml
 
 AI That Works - Weekly conversations about production-ready AI engineering with live coding and Q&A.]]></description>
       <link>https://www.youtube.com/watch?v=wadVIkJnjQE</link>
