@@ -12,12 +12,12 @@
 
 <div align="center">
 <h2>🦄 <strong>Next Episode</strong></h2>
-<h3><strong>No Vibes Allowed February</strong></h3>
-<p><strong>Tuesday, February 24, 2026 at 10 AM PST</strong></p>
-<p><em>In our February edition of our No Vibes Allowed series, we will be coding and shipping real features in our products using all of the concepts we cover on this podcast, including using advanced context engineering and backpressure. Join us to see how these concepts apply to real code and real products.
+<h3><strong>PII Redaction and Sensitive Data Scrubbing</strong></h3>
+<p><strong>Tuesday, March 3, 2026 at 10 AM PST</strong></p>
+<p><em>When building generative AI systems, one of the biggest risks companies face is the LLM accidentally exposing PII or PHI to an end user that isn't cleared to see it. This week on the podcast, we'll cover how to fix this problem. We'll discuss what prompting techniques you can use, and more importantly, we'll discuss how you can build evals to get comfortable with shipping these systems to users.
 </em></p>
 
-<a href="https://luma.com/no-vibes-allowed-feb" target="_blank">
+<a href="https://luma.com/pii-scrubbing" target="_blank">
 <img src="https://img.shields.io/badge/🦄_REGISTER_NOW-Join_Live_Session-ff4444?style=for-the-badge&logo=calendar" alt="Register Now">
 </a>
 
@@ -101,10 +101,23 @@ Before joining, get familiar with our toolkit:
         <div style="margin-bottom: 2px;">
           <span style="background: #dc3545; color: white; padding: 2px 6px; border-radius: 3px; font-size: 11px; font-weight: bold;">UPCOMING</span>
         </div>
+        <div style="color: #666; font-size: 13px; margin-bottom: 4px;">2026-03-03</div>
+        <div style="font-size: 16px; line-height: 1.3; margin-bottom: 6px;"><strong>#47</strong>: PII Redaction and Sensitive Data Scrubbing</div>
+        <div style="font-size: 13px; color: #666;">
+          <a href="./2026-03-03-pii-redaction-and-sensitive-data-scrubbing">code</a> • <a href="https://luma.com/pii-scrubbing">register</a>
+        </div>
+      </div>
+    </td><td><div style="padding: 8px 0; line-height: 1.5;">When building generative AI systems, one of the biggest risks companies face is the LLM accidentally exposing PII or PHI to an end user that isn't cleared to see it. This week on the podcast, we'll cover how to fix this problem. We'll discuss what prompting techniques you can use, and more importantly, we'll discuss how you can build evals to get comfortable with shipping these systems to users.
+</div></td></tr>
+<tr><td>
+      <div style="padding: 8px 0;">
+        <div style="margin-bottom: 2px;">
+          <span style="background: #28a745; color: white; padding: 2px 6px; border-radius: 3px; font-size: 11px; font-weight: bold;">PAST</span>
+        </div>
         <div style="color: #666; font-size: 13px; margin-bottom: 4px;">2026-02-24</div>
         <div style="font-size: 16px; line-height: 1.3; margin-bottom: 6px;"><strong>#46</strong>: No Vibes Allowed February</div>
         <div style="font-size: 13px; color: #666;">
-          <a href="./2026-02-24-no-vibes-february">code</a> • <a href="https://luma.com/no-vibes-allowed-feb">register</a>
+          <a href="./2026-02-24-no-vibes-february">code</a>
         </div>
       </div>
     </td><td><div style="padding: 8px 0; line-height: 1.5;">In our February edition of our No Vibes Allowed series, we will be coding and shipping real features in our products using all of the concepts we cover on this podcast, including using advanced context engineering and backpressure. Join us to see how these concepts apply to real code and real products.

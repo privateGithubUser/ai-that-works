@@ -91,10 +91,11 @@ function SuggestEpisodeTitles(
     - Be specific and concrete (no vague words like "leveraging", "unlocking", "harnessing", "revolutionizing")
     - Be accessible to a developer who hasn't heard of this specific technique or tool
     - Avoid overly technical jargon that only insiders would recognize (e.g. "agentic backpressure" sounds technical; "How AI agents slow down without breaking" is better)
-    - Mix styles: at least one question format, at least one "how to" or actionable format, and one that leads with the benefit or outcome
     - Avoid the word "AI" as the first word (it's overused)
     - The title should highlight generally applicable concepts or takeaways and not be too specific to the episode topic
     - Each title should encompass the entire episode topic and not be too specific about one particular concept or takeaway
+    - Mix styles: at least one question format, at least one "how to" or actionable format, and one that leads with the benefit or outcome
+    - It should be very slightly click-baity, but not too much
     - Do NOT reuse the current working title
 
     Good example: "Prompt Optimizer"
