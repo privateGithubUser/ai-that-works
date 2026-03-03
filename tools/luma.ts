@@ -287,3 +287,4 @@ if (import.meta.main) {
 }
 
 export { LumaClient };
+export { LumaClient };
