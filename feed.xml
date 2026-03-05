@@ -16,8 +16,26 @@
       <link>https://github.com/ai-that-works/ai-that-works</link>
     </image>
     <atom:link href="https://github.com/ai-that-works/ai-that-works/raw/main/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 26 Feb 2026 16:38:36 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 12:29:05 GMT</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title><![CDATA[No Vibes Allowed February]]></title>
+      <description><![CDATA[In our February edition of our No Vibes Allowed series, we will be coding and shipping real features in our products using all of the concepts we cover on this podcast, including using advanced context engineering and backpressure. Join us to see how these concepts apply to real code and real products.
+
+
+Watch: https://www.youtube.com/watch?v=YcT7gjzj2TU
+Code: https://github.com/ai-that-works/ai-that-works/tree/main/2026-02-24-no-vibes-february
+Event: https://luma.com/no-vibes-allowed-feb
+
+AI That Works - Weekly conversations about production-ready AI engineering with live coding and Q&A.]]></description>
+      <link>https://www.youtube.com/watch?v=YcT7gjzj2TU</link>
+      <guid isPermaLink="false">aitw-046</guid>
+      <pubDate>Tue, 24 Feb 2026 18:00:00 GMT</pubDate>
+      <category>Technology</category>
+      <category>Software Engineering</category>
+      <category>Artificial Intelligence</category>
+      <enclosure url="https://www.youtube.com/watch?v=YcT7gjzj2TU" type="video/youtube" />
+    </item>
     <item>
       <title><![CDATA[AI Content Pipeline Revisited]]></title>
       <description><![CDATA[We have another meta episode this week! Several months ago, we did an episode back about automating the pipeline for generating the artifacts and content for this podcast. That pipeline became stale, and so we breathed some life back into it and we're going to discuss the different parts of that pipeline on the podcast.

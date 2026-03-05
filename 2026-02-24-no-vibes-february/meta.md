@@ -6,10 +6,11 @@ description: |
 event_link: https://luma.com/no-vibes-allowed-feb
 eventDate: 2026-02-24T18:00:00Z
 media:
-  url: https://www.youtube.com/playlist?list=PLi60mUelRAbFqfgymVfZttlkIyt0XHZjt
+  url: https://www.youtube.com/watch?v=YcT7gjzj2TU
   type: video/youtube
 links:
   code: https://github.com/ai-that-works/ai-that-works/tree/main/2026-02-24-no-vibes-february
+  youtube: https://www.youtube.com/watch?v=YcT7gjzj2TU
 season: 2
 episode: 46
 event_type: episode

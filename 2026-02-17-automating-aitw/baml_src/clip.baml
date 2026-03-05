@@ -79,6 +79,80 @@ function ExtractHighImpactClips(
   "#
 }
 
+// An in-medias-res clip that drops the viewer directly into action
+class InMediasResClip {
+  rationale string @description(#"
+    Explain why this clip works as an in-medias-res moment:
+    - What action is being performed (live coding, whiteboarding, debugging, building)?
+    - Why is watching this action compelling without setup?
+    - What does the viewer learn from witnessing this directly?
+  "#)
+  action_type string @description("The type of action being performed, e.g., 'live coding', 'whiteboarding', 'debugging', 'building', 'pair programming'")
+  start_timestamp string @description("The timestamp where the clip starts, e.g., '33:46'")
+  end_timestamp string @description("The timestamp where the clip ends, e.g., '35:15'")
+  speaker string @description("The primary person doing the action in this clip")
+  transcript_excerpt string @description(#"
+    The exact text from the transcript that should be included in the clip.
+    Include speaker names and timestamps as they appear in the original.
+  "#)
+  hook string @description("A short context-setting caption (1-2 sentences) that tells the viewer what they're jumping into — NOT a teaser, but a title card that names the action")
+}
+
+// Extract in-medias-res clips that drop the viewer directly into the action
+function ExtractInMediasResClips(
+  transcript: string,
+  episode_title: string,
+  key_takeaways: string[],
+  one_thing_to_remember: string
+) -> InMediasResClip[] {
+  client Gemini25Flash
+  prompt #"
+    {{ _.role('user') }}
+    You are finding in-medias-res action clips from an AI That Works episode transcript.
+    These clips drop the viewer directly into the middle of the action — no preamble, no setup, just watching someone DO something.
+
+    Episode Title: {{ episode_title }}
+
+    Key Takeaways from this episode:
+    {% for takeaway in key_takeaways %}
+    - {{ takeaway }}
+    {% endfor %}
+
+    The one thing to remember from this episode:
+    {{ one_thing_to_remember }}
+
+    Full Transcript:
+    {{ transcript }}
+
+    {{ _.role('user') }}
+    Find the THREE best portions of this transcript where someone is actively DOING something — live coding, whiteboarding, debugging, building, demonstrating — and the viewer is thrown right into the middle of the action.
+
+    Each in-medias-res clip should:
+    1. Start mid-action — the speaker is already doing something when the clip begins, not explaining what they're about to do
+    2. Show real, hands-on work: typing code, drawing diagrams, stepping through a debugger, wiring up components
+    3. Be compelling to watch without any setup — the action itself is the hook
+    4. Be 60-120 seconds when spoken (roughly 150-300 words) — long enough to show meaningful progress
+    5. Avoid moments that are purely conversational or explanatory — find the moments where things are actually being built or demonstrated
+    6. Ideally end at a satisfying moment — something works, something is revealed, a key piece clicks into place
+
+    Look for moments where:
+    - Someone starts writing code and you can follow along line by line
+    - A whiteboard or diagram is being drawn and explained simultaneously
+    - A bug is being tracked down and fixed in real time
+    - A tool or workflow is being demonstrated hands-on
+    - Something is assembled, wired together, or run for the first time
+
+    IMPORTANT:
+    - Return exactly 3 clips, ordered from most compelling to least compelling
+    - The clips should NOT overlap — pick different moments from the transcript
+    - Include the exact transcript text including speaker names and timestamps as they appear in the original
+    - The hook should SET CONTEXT (e.g., "Kevin live-codes a BAML extractor from scratch") — not tease or ask a question
+    - If the episode has no clear action/hands-on moments, pick the closest approximations
+
+    {{ ctx.output_format }}
+  "#
+}
+
 // Test for ExtractHighImpactClips
 test ExtractHighImpactClipsTest {
   functions [ExtractHighImpactClips]

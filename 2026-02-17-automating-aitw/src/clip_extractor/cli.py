@@ -13,19 +13,19 @@ env_path = Path(__file__).parent.parent.parent.parent / ".env"
 load_dotenv(env_path)
 
 from baml_client import b
-from baml_client.types import HighImpactClip
+from baml_client.types import HighImpactClip, InMediasResClip
 
 
 async def extract_clips(
     transcript: str,
     episode_title: str,
     episode_description: str,
-) -> list[HighImpactClip]:
-    """Extract the three highest-impact clips from an episode transcript.
+) -> tuple[list[HighImpactClip], list[InMediasResClip]]:
+    """Extract high-impact and in-medias-res clips from an episode transcript.
 
     Two-stage pipeline:
     1. ExtractEmailStructure - Extract key takeaways from the transcript
-    2. ExtractHighImpactClips - Find the best clips that relate to those takeaways
+    2. ExtractHighImpactClips + ExtractInMediasResClips - Run both in parallel
 
     Args:
         transcript: Full episode transcript
@@ -33,7 +33,7 @@ async def extract_clips(
         episode_description: Episode description/summary
 
     Returns:
-        List of 3 HighImpactClip objects with rationale, timestamps, transcript excerpt, and hook
+        Tuple of (high_impact_clips, in_medias_res_clips)
     """
     # Stage 1: Extract key takeaways using the email structure function
     structure = await b.ExtractEmailStructure(
@@ -42,15 +42,23 @@ async def extract_clips(
         episode_description=episode_description,
     )
 
-    # Stage 2: Find the high-impact clips based on those takeaways
-    clips = await b.ExtractHighImpactClips(
-        transcript=transcript,
-        episode_title=episode_title,
-        key_takeaways=structure.quick_recap,
-        one_thing_to_remember=structure.one_thing_to_remember,
+    # Stage 2: Run both clip extractors in parallel
+    clips, action_clips = await asyncio.gather(
+        b.ExtractHighImpactClips(
+            transcript=transcript,
+            episode_title=episode_title,
+            key_takeaways=structure.quick_recap,
+            one_thing_to_remember=structure.one_thing_to_remember,
+        ),
+        b.ExtractInMediasResClips(
+            transcript=transcript,
+            episode_title=episode_title,
+            key_takeaways=structure.quick_recap,
+            one_thing_to_remember=structure.one_thing_to_remember,
+        ),
     )
 
-    return clips
+    return clips, action_clips
 
 
 def parse_args() -> argparse.Namespace:
@@ -95,7 +103,7 @@ async def main():
 
     transcript = args.transcript.read_text()
 
-    results = await extract_clips(
+    clips, action_clips = await extract_clips(
         transcript=transcript,
         episode_title=args.title,
         episode_description=args.description,
@@ -115,13 +123,35 @@ async def main():
             "transcript_excerpt": clip.transcript_excerpt,
             "hook": clip.hook,
         }
-        for clip in results
+        for clip in clips
     ]
     output_file.write_text(json.dumps(clips_data, indent=2))
 
-    print(f"Clips extracted to {output_file}")
-    for i, clip in enumerate(results, 1):
+    # Write action_clips.json to output directory
+    action_output_file = args.output / "action_clips.json"
+    action_clips_data = [
+        {
+            "rationale": clip.rationale,
+            "action_type": clip.action_type,
+            "start_timestamp": clip.start_timestamp,
+            "end_timestamp": clip.end_timestamp,
+            "speaker": clip.speaker,
+            "transcript_excerpt": clip.transcript_excerpt,
+            "hook": clip.hook,
+        }
+        for clip in action_clips
+    ]
+    action_output_file.write_text(json.dumps(action_clips_data, indent=2))
+
+    print(f"High-impact clips extracted to {output_file}")
+    for i, clip in enumerate(clips, 1):
         print(f"\n--- Clip {i} ---")
+        print(f"Hook: {clip.hook}")
+        print(f"Timestamps: {clip.start_timestamp} - {clip.end_timestamp}")
+
+    print(f"\nIn-medias-res action clips extracted to {action_output_file}")
+    for i, clip in enumerate(action_clips, 1):
+        print(f"\n--- Action Clip {i} ({clip.action_type}) ---")
         print(f"Hook: {clip.hook}")
         print(f"Timestamps: {clip.start_timestamp} - {clip.end_timestamp}")
 

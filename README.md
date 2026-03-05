@@ -117,7 +117,7 @@ Before joining, get familiar with our toolkit:
         <div style="color: #666; font-size: 13px; margin-bottom: 4px;">2026-02-24</div>
         <div style="font-size: 16px; line-height: 1.3; margin-bottom: 6px;"><strong>#46</strong>: No Vibes Allowed February</div>
         <div style="font-size: 13px; color: #666;">
-          <a href="./2026-02-24-no-vibes-february">code</a>
+          <a href="https://www.youtube.com/watch?v=YcT7gjzj2TU">watch</a> • <a href="./2026-02-24-no-vibes-february">code</a>
         </div>
       </div>
     </td><td><div style="padding: 8px 0; line-height: 1.5;">In our February edition of our No Vibes Allowed series, we will be coding and shipping real features in our products using all of the concepts we cover on this podcast, including using advanced context engineering and backpressure. Join us to see how these concepts apply to real code and real products.
