@@ -16,8 +16,26 @@
       <link>https://github.com/ai-that-works/ai-that-works</link>
     </image>
     <atom:link href="https://github.com/ai-that-works/ai-that-works/raw/main/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 05 Mar 2026 15:36:08 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 17:38:59 GMT</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title><![CDATA[PII Redaction and Sensitive Data Scrubbing]]></title>
+      <description><![CDATA[When building generative AI systems, one of the biggest risks companies face is the LLM accidentally exposing PII or PHI to an end user that isn't cleared to see it. This week on the podcast, we'll cover how to fix this problem. We'll discuss what prompting techniques you can use, and more importantly, we'll discuss how you can build evals to get comfortable with shipping these systems to users.
+
+
+Watch: https://www.youtube.com/watch?v=Ql2gLHWuX7M
+Code: https://github.com/hellovai/ai-that-works/tree/main/2026-03-03-pii-redaction-and-sensitive-data-scrubbing
+Event: https://luma.com/pii-scrubbing
+
+AI That Works - Weekly conversations about production-ready AI engineering with live coding and Q&A.]]></description>
+      <link>https://www.youtube.com/watch?v=Ql2gLHWuX7M</link>
+      <guid isPermaLink="false">aitw-047</guid>
+      <pubDate>Tue, 03 Mar 2026 18:15:00 GMT</pubDate>
+      <category>Technology</category>
+      <category>Software Engineering</category>
+      <category>Artificial Intelligence</category>
+      <enclosure url="https://www.youtube.com/watch?v=Ql2gLHWuX7M" type="video/youtube" />
+    </item>
     <item>
       <title><![CDATA[No Vibes Allowed February]]></title>
       <description><![CDATA[In our February edition of our No Vibes Allowed series, we will be coding and shipping real features in our products using all of the concepts we cover on this podcast, including using advanced context engineering and backpressure. Join us to see how these concepts apply to real code and real products.

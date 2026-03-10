@@ -6,10 +6,11 @@ description: |
 event_link: https://luma.com/pii-scrubbing
 eventDate: 2026-03-03T18:15:00Z
 media:
-  url: https://www.youtube.com/playlist?list=PLi60mUelRAbFqfgymVfZttlkIyt0XHZjt
+  url: https://www.youtube.com/watch?v=Ql2gLHWuX7M
   type: video/youtube
 links:
-  code: https://github.com/ai-that-works/ai-that-works/tree/main/2026-03-03-pii-redaction-and-sensitive-data-scrubbing
+  code: https://github.com/hellovai/ai-that-works/tree/main/2026-03-03-pii-redaction-and-sensitive-data-scrubbing
+  youtube: https://www.youtube.com/watch?v=Ql2gLHWuX7M
 season: 2
 episode: 47
 event_type: episode

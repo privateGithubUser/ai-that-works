@@ -29,11 +29,12 @@
       "eventDate": "2026-03-03T18:15:00Z",
       "event_type": "episode",
       "media": {
-        "url": "https://www.youtube.com/playlist?list=PLi60mUelRAbFqfgymVfZttlkIyt0XHZjt",
+        "url": "https://www.youtube.com/watch?v=Ql2gLHWuX7M",
         "type": "video/youtube"
       },
       "links": {
-        "code": "https://github.com/ai-that-works/ai-that-works/tree/main/2026-03-03-pii-redaction-and-sensitive-data-scrubbing"
+        "youtube": "https://www.youtube.com/watch?v=Ql2gLHWuX7M",
+        "code": "https://github.com/hellovai/ai-that-works/tree/main/2026-03-03-pii-redaction-and-sensitive-data-scrubbing"
       },
       "season": 2,
       "episode": 47,
@@ -1067,14 +1068,14 @@
   ],
   "meta": {
     "totalEpisodes": 51,
-    "completedEpisodes": 46,
+    "completedEpisodes": 47,
     "upcomingEpisodes": 1,
     "workshops": 3,
     "seasons": [
       1,
       2
     ],
-    "lastUpdated": "2026-03-05T15:36:08.493Z",
+    "lastUpdated": "2026-03-06T17:38:59.530Z",
     "generatedBy": "validate-metadata.ts"
   }
 }
