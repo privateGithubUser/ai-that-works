@@ -117,7 +117,7 @@ Before joining, get familiar with our toolkit:
         <div style="color: #666; font-size: 13px; margin-bottom: 4px;">2026-03-03</div>
         <div style="font-size: 16px; line-height: 1.3; margin-bottom: 6px;"><strong>#47</strong>: PII Redaction and Sensitive Data Scrubbing</div>
         <div style="font-size: 13px; color: #666;">
-          <a href="./2026-03-03-pii-redaction-and-sensitive-data-scrubbing">code</a>
+          <a href="https://www.youtube.com/watch?v=Ql2gLHWuX7M">watch</a> • <a href="https://github.com/hellovai/ai-that-works/tree/main/2026-03-03-pii-redaction-and-sensitive-data-scrubbing">code</a>
         </div>
       </div>
     </td><td><div style="padding: 8px 0; line-height: 1.5;">When building generative AI systems, one of the biggest risks companies face is the LLM accidentally exposing PII or PHI to an end user that isn't cleared to see it. This week on the podcast, we'll cover how to fix this problem. We'll discuss what prompting techniques you can use, and more importantly, we'll discuss how you can build evals to get comfortable with shipping these systems to users.
