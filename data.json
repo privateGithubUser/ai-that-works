@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "folder": "2026-03-17-prompt-injections-guardrails",
+      "guid": "aitw-049",
+      "title": "Prompt Injections Guardrails",
+      "description": "A major risk factor in agentic coding is Prompt Injections. Tool output, document retrieval, system prompts all get inputted into the LLM and are all at risk of prompt injections.\n\nThis week on the podcast, we're going to cover how to handle this risk. We will discuss how to protect system prompts, avoid hijacking, and implementing ethical guards\n",
+      "event_link": "https://luma.com/prompt-injection-guardrails",
+      "eventDate": "2026-03-17T18:00:00Z",
+      "event_type": "episode",
+      "media": {
+        "url": "https://www.youtube.com/playlist?list=PLi60mUelRAbFqfgymVfZttlkIyt0XHZjt",
+        "type": "video/youtube"
+      },
+      "links": {
+        "code": "https://github.com/ai-that-works/ai-that-works/tree/main/2026-03-17-prompt-injections-guardrails"
+      },
+      "season": 2,
+      "episode": 49,
+      "isPast": false,
+      "isWorkshop": false
+    },
+    {
       "folder": "2026-03-10-claude-agent-skills-deep-dive",
       "guid": "aitw-048",
       "title": "Claude Agent Skills Deep Dive",
@@ -9,15 +29,16 @@
       "eventDate": "2026-03-10T18:00:00Z",
       "event_type": "episode",
       "media": {
-        "url": "https://www.youtube.com/playlist?list=PLi60mUelRAbFqfgymVfZttlkIyt0XHZjt",
+        "url": "https://www.youtube.com/watch?v=b5O6gb_Zuk8",
         "type": "video/youtube"
       },
       "links": {
+        "youtube": "https://www.youtube.com/watch?v=b5O6gb_Zuk8",
         "code": "https://github.com/ai-that-works/ai-that-works/tree/main/2026-03-10-claude-agent-skills-deep-dive"
       },
       "season": 2,
       "episode": 48,
-      "isPast": false,
+      "isPast": true,
       "isWorkshop": false
     },
     {
@@ -1067,15 +1088,15 @@
     }
   ],
   "meta": {
-    "totalEpisodes": 51,
-    "completedEpisodes": 47,
+    "totalEpisodes": 52,
+    "completedEpisodes": 48,
     "upcomingEpisodes": 1,
     "workshops": 3,
     "seasons": [
       1,
       2
     ],
-    "lastUpdated": "2026-03-06T17:38:59.530Z",
+    "lastUpdated": "2026-03-13T21:49:15.525Z",
     "generatedBy": "validate-metadata.ts"
   }
 }

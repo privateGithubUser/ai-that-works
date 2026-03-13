@@ -12,12 +12,14 @@
 
 <div align="center">
 <h2>🦄 <strong>Next Episode</strong></h2>
-<h3><strong>Claude Agent Skills Deep Dive</strong></h3>
-<p><strong>Tuesday, March 10, 2026 at 10 AM PST</strong></p>
-<p><em>Claude Code has exploded in its abilities over the past 8 months, and it can be hard to keep up. Seemingly overnight, everyone is discussing claude's skills, commands, agents, and subagents, and a lot of the literature out there already assumes you know what these are. This week on the podcast, we're going to go over all of them. We will discuss what each one is, how and when to use it, what the benefits and drawbacks are, and how they fit into the broader context engineering picture.
+<h3><strong>Prompt Injections Guardrails</strong></h3>
+<p><strong>Tuesday, March 17, 2026 at 10 AM PST</strong></p>
+<p><em>A major risk factor in agentic coding is Prompt Injections. Tool output, document retrieval, system prompts all get inputted into the LLM and are all at risk of prompt injections.
+
+This week on the podcast, we're going to cover how to handle this risk. We will discuss how to protect system prompts, avoid hijacking, and implementing ethical guards
 </em></p>
 
-<a href="https://luma.com/claude-skills-deep-dive" target="_blank">
+<a href="https://luma.com/prompt-injection-guardrails" target="_blank">
 <img src="https://img.shields.io/badge/🦄_REGISTER_NOW-Join_Live_Session-ff4444?style=for-the-badge&logo=calendar" alt="Register Now">
 </a>
 
@@ -101,10 +103,25 @@ Before joining, get familiar with our toolkit:
         <div style="margin-bottom: 2px;">
           <span style="background: #dc3545; color: white; padding: 2px 6px; border-radius: 3px; font-size: 11px; font-weight: bold;">UPCOMING</span>
         </div>
+        <div style="color: #666; font-size: 13px; margin-bottom: 4px;">2026-03-17</div>
+        <div style="font-size: 16px; line-height: 1.3; margin-bottom: 6px;"><strong>#49</strong>: Prompt Injections Guardrails</div>
+        <div style="font-size: 13px; color: #666;">
+          <a href="./2026-03-17-prompt-injections-guardrails">code</a> • <a href="https://luma.com/prompt-injection-guardrails">register</a>
+        </div>
+      </div>
+    </td><td><div style="padding: 8px 0; line-height: 1.5;">A major risk factor in agentic coding is Prompt Injections. Tool output, document retrieval, system prompts all get inputted into the LLM and are all at risk of prompt injections.
+
+This week on the podcast, we're going to cover how to handle this risk. We will discuss how to protect system prompts, avoid hijacking, and implementing ethical guards
+</div></td></tr>
+<tr><td>
+      <div style="padding: 8px 0;">
+        <div style="margin-bottom: 2px;">
+          <span style="background: #28a745; color: white; padding: 2px 6px; border-radius: 3px; font-size: 11px; font-weight: bold;">PAST</span>
+        </div>
         <div style="color: #666; font-size: 13px; margin-bottom: 4px;">2026-03-10</div>
         <div style="font-size: 16px; line-height: 1.3; margin-bottom: 6px;"><strong>#48</strong>: Claude Agent Skills Deep Dive</div>
         <div style="font-size: 13px; color: #666;">
-          <a href="./2026-03-10-claude-agent-skills-deep-dive">code</a> • <a href="https://luma.com/claude-skills-deep-dive">register</a>
+          <a href="https://www.youtube.com/watch?v=b5O6gb_Zuk8">watch</a> • <a href="./2026-03-10-claude-agent-skills-deep-dive">code</a>
         </div>
       </div>
     </td><td><div style="padding: 8px 0; line-height: 1.5;">Claude Code has exploded in its abilities over the past 8 months, and it can be hard to keep up. Seemingly overnight, everyone is discussing claude's skills, commands, agents, and subagents, and a lot of the literature out there already assumes you know what these are. This week on the podcast, we're going to go over all of them. We will discuss what each one is, how and when to use it, what the benefits and drawbacks are, and how they fit into the broader context engineering picture.

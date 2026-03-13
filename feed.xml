@@ -16,8 +16,26 @@
       <link>https://github.com/ai-that-works/ai-that-works</link>
     </image>
     <atom:link href="https://github.com/ai-that-works/ai-that-works/raw/main/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 06 Mar 2026 17:38:59 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 21:49:15 GMT</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title><![CDATA[Claude Agent Skills Deep Dive]]></title>
+      <description><![CDATA[Claude Code has exploded in its abilities over the past 8 months, and it can be hard to keep up. Seemingly overnight, everyone is discussing claude's skills, commands, agents, and subagents, and a lot of the literature out there already assumes you know what these are. This week on the podcast, we're going to go over all of them. We will discuss what each one is, how and when to use it, what the benefits and drawbacks are, and how they fit into the broader context engineering picture.
+
+
+Watch: https://www.youtube.com/watch?v=b5O6gb_Zuk8
+Code: https://github.com/ai-that-works/ai-that-works/tree/main/2026-03-10-claude-agent-skills-deep-dive
+Event: https://luma.com/claude-skills-deep-dive
+
+AI That Works - Weekly conversations about production-ready AI engineering with live coding and Q&A.]]></description>
+      <link>https://www.youtube.com/watch?v=b5O6gb_Zuk8</link>
+      <guid isPermaLink="false">aitw-048</guid>
+      <pubDate>Tue, 10 Mar 2026 18:00:00 GMT</pubDate>
+      <category>Technology</category>
+      <category>Software Engineering</category>
+      <category>Artificial Intelligence</category>
+      <enclosure url="https://www.youtube.com/watch?v=b5O6gb_Zuk8" type="video/youtube" />
+    </item>
     <item>
       <title><![CDATA[PII Redaction and Sensitive Data Scrubbing]]></title>
       <description><![CDATA[When building generative AI systems, one of the biggest risks companies face is the LLM accidentally exposing PII or PHI to an end user that isn't cleared to see it. This week on the podcast, we'll cover how to fix this problem. We'll discuss what prompting techniques you can use, and more importantly, we'll discuss how you can build evals to get comfortable with shipping these systems to users.
