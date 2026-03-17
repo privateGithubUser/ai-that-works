@@ -8,7 +8,7 @@ We walked through the full history of how these tools evolved — from slash com
 
 **Actions you can take today:**
 
-**Separate context isolation from instruction modules — they're different problems.** Subagents are for context isolation: when a task is going to generate a ton of tokens (like a Playwright agent clicking around the DOM), you fork it into a subagent so it doesn't pollute your main context. Skills are for instruction modules: when you have a set of instructions you want to inject on demand, like "here's how we write backend code." Don't use subagents to carry instructions — use skills for that.
+**Separate context isolation from instruction modules. They're different problems.** Subagents are for context isolation: when a task is going to generate a ton of tokens (like a Playwright agent clicking around the DOM), you fork it into a subagent so it doesn't pollute your main context. Skills are for instruction modules: when you have a set of instructions you want to inject on demand, like "here's how we write backend code." Don't use subagents to carry instructions — use skills for that.
 
 **Watch your context window tool budget.** Every subagent description, every skill description, and every MCP tool gets injected into your context window on every turn. If you have 30 skills installed globally, those descriptions are eating into the token budget your model uses to follow your actual instructions. Claude Code handles this with a tool search feature once you cross a certain threshold, but the solution is simpler: install fewer things and be intentional about what's global vs. per-project.
 
@@ -20,7 +20,7 @@ Skills and subagents solve different problems. A subagent gives you a fresh cont
 
 **Next session: Prompt Injections & Guardrails**
 
-Next Monday, March 17th, we're covering prompt injection — one of the bigger risks in agentic systems. Tool output, retrieved documents, and system prompts are all vectors. We'll walk through how to protect system prompts, prevent hijacking, and implement ethical guards in real codebases.
+Tomorrow, we're covering prompt injections, one of the bigger risks in agentic systems. Tool output, retrieved documents, and system prompts are all vectors. We'll walk through how to protect system prompts, prevent hijacking, and implement ethical guards in real codebases.
 
 Sign up here: https://luma.com/prompt-injection-guardrails
 
