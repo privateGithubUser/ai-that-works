@@ -57,7 +57,7 @@ function ExtractHighImpactClips(
     1. Be self-contained and understandable without additional context
     2. Contain a concrete insight, surprising or counterintuitive fact, or actionable advice
     3. Should be an "aha" moment - a moment where the speaker has a "lightbulb moment" or breakthrough realization
-    4. Be succinct - less than 60 seconds when spoken (roughly 120-180 words)
+    4. Be about 1 minute when spoken — NO longer than 2 minutes (roughly 150-300 words)
     5. Relate directly to one of the key takeaways
     6. Have a clear "hook" that grabs attention
     7. Avoid rambling setup - get to the point quickly
@@ -71,7 +71,7 @@ function ExtractHighImpactClips(
 
     IMPORTANT:
     - Return exactly 3 clips, ordered from most impactful to least impactful
-    - The clips should be less than 60 seconds when spoken (roughly 120-180 words)
+    - The clips should be about 1 minute when spoken — NO longer than 2 minutes (roughly 150-300 words)
     - The clips should not overlap - pick different moments from the transcript
     - Include the exact transcript text including speaker names and timestamps as they appear in the original
 
@@ -131,7 +131,7 @@ function ExtractInMediasResClips(
     1. Start mid-action — the speaker is already doing something when the clip begins, not explaining what they're about to do
     2. Show real, hands-on work: typing code, drawing diagrams, stepping through a debugger, wiring up components
     3. Be compelling to watch without any setup — the action itself is the hook
-    4. Be 60-120 seconds when spoken (roughly 150-300 words) — long enough to show meaningful progress
+    4. Be about 1 minute when spoken — NO longer than 2 minutes (roughly 150-300 words) — long enough to show meaningful progress
     5. Avoid moments that are purely conversational or explanatory — find the moments where things are actually being built or demonstrated
     6. Ideally (but not necessarily) end at a satisfying moment — something works, something is revealed, a key piece clicks into place
 
