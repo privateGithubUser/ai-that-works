@@ -117,7 +117,7 @@ Before joining, get familiar with our toolkit:
         <div style="color: #666; font-size: 13px; margin-bottom: 4px;">2026-03-31</div>
         <div style="font-size: 16px; line-height: 1.3; margin-bottom: 6px;"><strong>#51</strong>: No Vibes Allowed March Edition</div>
         <div style="font-size: 13px; color: #666;">
-          <a href="./2026-03-31-no-vibes-march">code</a>
+          <a href="https://www.youtube.com/watch?v=0rMG-3iiilc">watch</a> • <a href="./2026-03-31-no-vibes-march">code</a>
         </div>
       </div>
     </td><td><div style="padding: 8px 0; line-height: 1.5;">This week on the podcast is our March episode of our no vibes allowed series! Join us to watch how we implement everything we discuss on a weekly basis in our company's product. Real code, real trade-offs, and real production systems

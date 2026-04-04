@@ -29,10 +29,11 @@
       "eventDate": "2026-03-31T18:00:00Z",
       "event_type": "episode",
       "media": {
-        "url": "https://www.youtube.com/playlist?list=PLi60mUelRAbFqfgymVfZttlkIyt0XHZjt",
+        "url": "https://www.youtube.com/watch?v=0rMG-3iiilc",
         "type": "video/youtube"
       },
       "links": {
+        "youtube": "https://www.youtube.com/watch?v=0rMG-3iiilc",
         "code": "https://github.com/ai-that-works/ai-that-works/tree/main/2026-03-31-no-vibes-march"
       },
       "season": 2,
@@ -1151,14 +1152,14 @@
   ],
   "meta": {
     "totalEpisodes": 55,
-    "completedEpisodes": 50,
+    "completedEpisodes": 51,
     "upcomingEpisodes": 1,
     "workshops": 3,
     "seasons": [
       1,
       2
     ],
-    "lastUpdated": "2026-04-03T20:56:55.878Z",
+    "lastUpdated": "2026-04-03T21:41:27.432Z",
     "generatedBy": "validate-metadata.ts"
   }
 }

@@ -6,10 +6,11 @@ description: |
 event_link: https://luma.com/no-vibes-allowed-march-26
 eventDate: 2026-03-31T18:00:00Z
 media:
-  url: https://www.youtube.com/playlist?list=PLi60mUelRAbFqfgymVfZttlkIyt0XHZjt
+  url: https://www.youtube.com/watch?v=0rMG-3iiilc
   type: video/youtube
 links:
   code: https://github.com/ai-that-works/ai-that-works/tree/main/2026-03-31-no-vibes-march
+  youtube: https://www.youtube.com/watch?v=0rMG-3iiilc
 season: 2
 episode: 51
 event_type: episode

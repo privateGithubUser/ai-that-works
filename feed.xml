@@ -16,8 +16,26 @@
       <link>https://github.com/ai-that-works/ai-that-works</link>
     </image>
     <atom:link href="https://github.com/ai-that-works/ai-that-works/raw/main/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 03 Apr 2026 20:56:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 21:41:27 GMT</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title><![CDATA[No Vibes Allowed March Edition]]></title>
+      <description><![CDATA[This week on the podcast is our March episode of our no vibes allowed series! Join us to watch how we implement everything we discuss on a weekly basis in our company's product. Real code, real trade-offs, and real production systems
+
+
+Watch: https://www.youtube.com/watch?v=0rMG-3iiilc
+Code: https://github.com/ai-that-works/ai-that-works/tree/main/2026-03-31-no-vibes-march
+Event: https://luma.com/no-vibes-allowed-march-26
+
+AI That Works - Weekly conversations about production-ready AI engineering with live coding and Q&A.]]></description>
+      <link>https://www.youtube.com/watch?v=0rMG-3iiilc</link>
+      <guid isPermaLink="false">aitw-051</guid>
+      <pubDate>Tue, 31 Mar 2026 18:00:00 GMT</pubDate>
+      <category>Technology</category>
+      <category>Software Engineering</category>
+      <category>Artificial Intelligence</category>
+      <enclosure url="https://www.youtube.com/watch?v=0rMG-3iiilc" type="video/youtube" />
+    </item>
     <item>
       <title><![CDATA[MCP is Dead?]]></title>
       <description><![CDATA[MCP isn't dead...or is it? This week on the podcast, we'll dive into this debate. What is the state of MCP today?
