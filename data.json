@@ -1,10 +1,10 @@
 {
   "episodes": [
     {
-      "folder": "2026-04-07-evals-revisited",
+      "folder": "2026-04-07-sse-streaming",
       "guid": "aitw-052",
-      "title": "Evals Revisited!",
-      "description": "A critical piece of building AI into a software factory is knowing whether it's actually working and where it's failing. This week, we dig into the practical side of designing evaluations for AI systems embedded in software development pipelines. We'll cover how to define what \"good\" looks like when AI is writing code, reviewing PRs, or generating tests, and how to build evals that are repeatable, automated, and meaningful at scale.\n",
+      "title": "SSE Streaming",
+      "description": "This week we build a real-time site summarizer using Server-Sent Events (SSE) streaming. We crawl a website, summarize each page with an LLM using BAML's semantic streaming, and stream partial results back to the browser as they're generated. We cover batched async concurrency, FastAPI SSE endpoints, and BAML's @stream.done/@stream.not_null attributes for controlling what streams and what waits.\n",
       "event_link": "https://luma.com/evals-revisited",
       "eventDate": "2026-04-07T18:00:00Z",
       "event_type": "episode",
@@ -13,11 +13,11 @@
         "type": "video/youtube"
       },
       "links": {
-        "code": "https://github.com/ai-that-works/ai-that-works/tree/main/2026-04-07-evals-revisited"
+        "code": "https://github.com/ai-that-works/ai-that-works/tree/main/2026-04-07-sse-streaming"
       },
       "season": 2,
       "episode": 52,
-      "isPast": false,
+      "isPast": true,
       "isWorkshop": false
     },
     {
@@ -1153,13 +1153,13 @@
   "meta": {
     "totalEpisodes": 55,
     "completedEpisodes": 51,
-    "upcomingEpisodes": 1,
+    "upcomingEpisodes": 0,
     "workshops": 3,
     "seasons": [
       1,
       2
     ],
-    "lastUpdated": "2026-04-03T21:41:27.432Z",
+    "lastUpdated": "2026-04-07T19:20:42.011Z",
     "generatedBy": "validate-metadata.ts"
   }
 }

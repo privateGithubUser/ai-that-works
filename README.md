@@ -10,22 +10,6 @@
 
 </div>
 
-<div align="center">
-<h2>🦄 <strong>Next Episode</strong></h2>
-<h3><strong>Evals Revisited!</strong></h3>
-<p><strong>Tuesday, April 7, 2026 at 10 AM PST</strong></p>
-<p><em>A critical piece of building AI into a software factory is knowing whether it's actually working and where it's failing. This week, we dig into the practical side of designing evaluations for AI systems embedded in software development pipelines. We'll cover how to define what "good" looks like when AI is writing code, reviewing PRs, or generating tests, and how to build evals that are repeatable, automated, and meaningful at scale.
-</em></p>
-
-<a href="https://luma.com/evals-revisited" target="_blank">
-<img src="https://img.shields.io/badge/🦄_REGISTER_NOW-Join_Live_Session-ff4444?style=for-the-badge&logo=calendar" alt="Register Now">
-</a>
-
-</div>
-
----
-
-
 ---
 
 ## **What We're About**
@@ -99,15 +83,15 @@ Before joining, get familiar with our toolkit:
 <tr><td>
       <div style="padding: 8px 0;">
         <div style="margin-bottom: 2px;">
-          <span style="background: #dc3545; color: white; padding: 2px 6px; border-radius: 3px; font-size: 11px; font-weight: bold;">UPCOMING</span>
+          <span style="background: #28a745; color: white; padding: 2px 6px; border-radius: 3px; font-size: 11px; font-weight: bold;">PAST</span>
         </div>
         <div style="color: #666; font-size: 13px; margin-bottom: 4px;">2026-04-07</div>
-        <div style="font-size: 16px; line-height: 1.3; margin-bottom: 6px;"><strong>#52</strong>: Evals Revisited!</div>
+        <div style="font-size: 16px; line-height: 1.3; margin-bottom: 6px;"><strong>#52</strong>: SSE Streaming</div>
         <div style="font-size: 13px; color: #666;">
-          <a href="./2026-04-07-evals-revisited">code</a> • <a href="https://luma.com/evals-revisited">register</a>
+          <a href="./2026-04-07-sse-streaming">code</a>
         </div>
       </div>
-    </td><td><div style="padding: 8px 0; line-height: 1.5;">A critical piece of building AI into a software factory is knowing whether it's actually working and where it's failing. This week, we dig into the practical side of designing evaluations for AI systems embedded in software development pipelines. We'll cover how to define what "good" looks like when AI is writing code, reviewing PRs, or generating tests, and how to build evals that are repeatable, automated, and meaningful at scale.
+    </td><td><div style="padding: 8px 0; line-height: 1.5;">This week we build a real-time site summarizer using Server-Sent Events (SSE) streaming. We crawl a website, summarize each page with an LLM using BAML's semantic streaming, and stream partial results back to the browser as they're generated. We cover batched async concurrency, FastAPI SSE endpoints, and BAML's @stream.done/@stream.not_null attributes for controlling what streams and what waits.
 </div></td></tr>
 <tr><td>
       <div style="padding: 8px 0;">
