@@ -1,4 +1,18 @@
-# SSE Streaming Demo
+# 🦄 ai that works: SSE Streaming
+
+> Build a real-time site summarizer using Server-Sent Events (SSE) streaming. Crawl a website, summarize each page with an LLM using BAML's semantic streaming, and stream partial results back to the browser as they're generated.
+
+[Video](https://www.youtube.com/watch?v=9MFiATinGC0)
+
+[![SSE Streaming](https://img.youtube.com/vi/9MFiATinGC0/0.jpg)](https://www.youtube.com/watch?v=9MFiATinGC0)
+
+## Links
+
+## Whiteboards
+
+---
+
+## Demo
 
 Crawls a website, summarizes each page with an LLM (via BAML), and streams the results over SSE.
 

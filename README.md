@@ -10,6 +10,26 @@
 
 </div>
 
+<div align="center">
+<h2>🦄 <strong>Next Episode</strong></h2>
+<h3><strong>Agentic Coding for Frontend Apps</strong></h3>
+<p><strong>Tuesday, April 14, 2026 at 10 AM PST</strong></p>
+<p><em>We do a lot of deep research and planning advice for building complex backend systems but in this week's episode, we're gonna talk about ways you can move faster and maintain quality for frontend code.
+
+While backend systems rely on good overall design and tend to be programatically verifiable, frontends require much tighter iteration loops and taste, and these explorations just don't suit themselves to complex up front planning. On the other hand, that shouldn't be an excuse to just regress to yoloing prompts. Good frontend code requires taste, judgement, and is just as vulnerable to a descent into chaotic spaghetti slop.
+
+Similar to our learning tests episode, this chat will cover small tactical side quests you can incorporate into your planning and development workflow to improve your frontend throughput. We'll primarily explore storybook as a vessel for interacting with and previewing UI, and approaches to separate presentation logic from business logic. By the end, you may find yourself wanting to ditch figma altogether and just write the components live.
+</em></p>
+
+<a href="https://luma.com/agentic-front-end-coding" target="_blank">
+<img src="https://img.shields.io/badge/🦄_REGISTER_NOW-Join_Live_Session-ff4444?style=for-the-badge&logo=calendar" alt="Register Now">
+</a>
+
+</div>
+
+---
+
+
 ---
 
 ## **What We're About**
@@ -83,12 +103,29 @@ Before joining, get familiar with our toolkit:
 <tr><td>
       <div style="padding: 8px 0;">
         <div style="margin-bottom: 2px;">
+          <span style="background: #dc3545; color: white; padding: 2px 6px; border-radius: 3px; font-size: 11px; font-weight: bold;">UPCOMING</span>
+        </div>
+        <div style="color: #666; font-size: 13px; margin-bottom: 4px;">2026-04-14</div>
+        <div style="font-size: 16px; line-height: 1.3; margin-bottom: 6px;"><strong>#53</strong>: Agentic Coding for Frontend Apps</div>
+        <div style="font-size: 13px; color: #666;">
+          <a href="./2026-04-14-agentic-coding-for-frontend-apps">code</a> • <a href="https://luma.com/agentic-front-end-coding">register</a>
+        </div>
+      </div>
+    </td><td><div style="padding: 8px 0; line-height: 1.5;">We do a lot of deep research and planning advice for building complex backend systems but in this week's episode, we're gonna talk about ways you can move faster and maintain quality for frontend code.
+
+While backend systems rely on good overall design and tend to be programatically verifiable, frontends require much tighter iteration loops and taste, and these explorations just don't suit themselves to complex up front planning. On the other hand, that shouldn't be an excuse to just regress to yoloing prompts. Good frontend code requires taste, judgement, and is just as vulnerable to a descent into chaotic spaghetti slop.
+
+Similar to our learning tests episode, this chat will cover small tactical side quests you can incorporate into your planning and development workflow to improve your frontend throughput. We'll primarily explore storybook as a vessel for interacting with and previewing UI, and approaches to separate presentation logic from business logic. By the end, you may find yourself wanting to ditch figma altogether and just write the components live.
+</div></td></tr>
+<tr><td>
+      <div style="padding: 8px 0;">
+        <div style="margin-bottom: 2px;">
           <span style="background: #28a745; color: white; padding: 2px 6px; border-radius: 3px; font-size: 11px; font-weight: bold;">PAST</span>
         </div>
         <div style="color: #666; font-size: 13px; margin-bottom: 4px;">2026-04-07</div>
         <div style="font-size: 16px; line-height: 1.3; margin-bottom: 6px;"><strong>#52</strong>: SSE Streaming</div>
         <div style="font-size: 13px; color: #666;">
-          <a href="./2026-04-07-sse-streaming">code</a>
+          <a href="https://www.youtube.com/watch?v=9MFiATinGC0">watch</a> • <a href="https://github.com/hellovai/ai-that-works/tree/main/2026-04-07-sse-streaming">code</a>
         </div>
       </div>
     </td><td><div style="padding: 8px 0; line-height: 1.5;">This week we build a real-time site summarizer using Server-Sent Events (SSE) streaming. We crawl a website, summarize each page with an LLM using BAML's semantic streaming, and stream partial results back to the browser as they're generated. We cover batched async concurrency, FastAPI SSE endpoints, and BAML's @stream.done/@stream.not_null attributes for controlling what streams and what waits.

@@ -6,10 +6,11 @@ description: |
 event_link: https://luma.com/evals-revisited
 eventDate: 2026-04-07T18:00:00Z
 media:
-  url: https://www.youtube.com/playlist?list=PLi60mUelRAbFqfgymVfZttlkIyt0XHZjt
+  url: https://www.youtube.com/watch?v=9MFiATinGC0
   type: video/youtube
 links:
-  code: https://github.com/ai-that-works/ai-that-works/tree/main/2026-04-07-sse-streaming
+  code: https://github.com/hellovai/ai-that-works/tree/main/2026-04-07-sse-streaming
+  youtube: https://www.youtube.com/watch?v=9MFiATinGC0
 season: 2
 episode: 52
 event_type: episode

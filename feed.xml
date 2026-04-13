@@ -16,8 +16,26 @@
       <link>https://github.com/ai-that-works/ai-that-works</link>
     </image>
     <atom:link href="https://github.com/ai-that-works/ai-that-works/raw/main/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 07 Apr 2026 19:20:42 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 11:27:07 GMT</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title><![CDATA[SSE Streaming]]></title>
+      <description><![CDATA[This week we build a real-time site summarizer using Server-Sent Events (SSE) streaming. We crawl a website, summarize each page with an LLM using BAML's semantic streaming, and stream partial results back to the browser as they're generated. We cover batched async concurrency, FastAPI SSE endpoints, and BAML's @stream.done/@stream.not_null attributes for controlling what streams and what waits.
+
+
+Watch: https://www.youtube.com/watch?v=9MFiATinGC0
+Code: https://github.com/hellovai/ai-that-works/tree/main/2026-04-07-sse-streaming
+Event: https://luma.com/evals-revisited
+
+AI That Works - Weekly conversations about production-ready AI engineering with live coding and Q&A.]]></description>
+      <link>https://www.youtube.com/watch?v=9MFiATinGC0</link>
+      <guid isPermaLink="false">aitw-052</guid>
+      <pubDate>Tue, 07 Apr 2026 18:00:00 GMT</pubDate>
+      <category>Technology</category>
+      <category>Software Engineering</category>
+      <category>Artificial Intelligence</category>
+      <enclosure url="https://www.youtube.com/watch?v=9MFiATinGC0" type="video/youtube" />
+    </item>
     <item>
       <title><![CDATA[No Vibes Allowed March Edition]]></title>
       <description><![CDATA[This week on the podcast is our March episode of our no vibes allowed series! Join us to watch how we implement everything we discuss on a weekly basis in our company's product. Real code, real trade-offs, and real production systems
