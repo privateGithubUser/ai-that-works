@@ -1,6 +1,110 @@
 {
   "episodes": [
     {
+      "folder": "2026-04-14-agentic-coding-for-frontend-apps",
+      "guid": "aitw-053",
+      "title": "Agentic Coding for Frontend Apps",
+      "description": "We do a lot of deep research and planning advice for building complex backend systems but in this week's episode, we're gonna talk about ways you can move faster and maintain quality for frontend code.\n\nWhile backend systems rely on good overall design and tend to be programatically verifiable, frontends require much tighter iteration loops and taste, and these explorations just don't suit themselves to complex up front planning. On the other hand, that shouldn't be an excuse to just regress to yoloing prompts. Good frontend code requires taste, judgement, and is just as vulnerable to a descent into chaotic spaghetti slop.\n\nSimilar to our learning tests episode, this chat will cover small tactical side quests you can incorporate into your planning and development workflow to improve your frontend throughput. We'll primarily explore storybook as a vessel for interacting with and previewing UI, and approaches to separate presentation logic from business logic. By the end, you may find yourself wanting to ditch figma altogether and just write the components live.\n",
+      "event_link": "https://luma.com/agentic-front-end-coding",
+      "eventDate": "2026-04-14T18:00:00Z",
+      "event_type": "episode",
+      "media": {
+        "url": "https://www.youtube.com/playlist?list=PLi60mUelRAbFqfgymVfZttlkIyt0XHZjt",
+        "type": "video/youtube"
+      },
+      "links": {
+        "code": "https://github.com/ai-that-works/ai-that-works/tree/main/2026-04-14-agentic-coding-for-frontend-apps"
+      },
+      "season": 2,
+      "episode": 53,
+      "isPast": false,
+      "isWorkshop": false
+    },
+    {
+      "folder": "2026-04-07-sse-streaming",
+      "guid": "aitw-052",
+      "title": "SSE Streaming",
+      "description": "This week we build a real-time site summarizer using Server-Sent Events (SSE) streaming. We crawl a website, summarize each page with an LLM using BAML's semantic streaming, and stream partial results back to the browser as they're generated. We cover batched async concurrency, FastAPI SSE endpoints, and BAML's @stream.done/@stream.not_null attributes for controlling what streams and what waits.\n",
+      "event_link": "https://luma.com/evals-revisited",
+      "eventDate": "2026-04-07T18:00:00Z",
+      "event_type": "episode",
+      "media": {
+        "url": "https://www.youtube.com/watch?v=9MFiATinGC0",
+        "type": "video/youtube"
+      },
+      "links": {
+        "youtube": "https://www.youtube.com/watch?v=9MFiATinGC0",
+        "code": "https://github.com/hellovai/ai-that-works/tree/main/2026-04-07-sse-streaming"
+      },
+      "season": 2,
+      "episode": 52,
+      "isPast": true,
+      "isWorkshop": false
+    },
+    {
+      "folder": "2026-03-31-no-vibes-march",
+      "guid": "aitw-051",
+      "title": "No Vibes Allowed March Edition",
+      "description": "This week on the podcast is our March episode of our no vibes allowed series! Join us to watch how we implement everything we discuss on a weekly basis in our company's product. Real code, real trade-offs, and real production systems\n",
+      "event_link": "https://luma.com/no-vibes-allowed-march-26",
+      "eventDate": "2026-03-31T18:00:00Z",
+      "event_type": "episode",
+      "media": {
+        "url": "https://www.youtube.com/watch?v=0rMG-3iiilc",
+        "type": "video/youtube"
+      },
+      "links": {
+        "youtube": "https://www.youtube.com/watch?v=0rMG-3iiilc",
+        "code": "https://github.com/ai-that-works/ai-that-works/tree/main/2026-03-31-no-vibes-march"
+      },
+      "season": 2,
+      "episode": 51,
+      "isPast": true,
+      "isWorkshop": false
+    },
+    {
+      "folder": "2026-03-24-mcp-is-dead",
+      "guid": "aitw-050",
+      "title": "MCP is Dead?",
+      "description": "MCP isn't dead...or is it? This week on the podcast, we'll dive into this debate. What is the state of MCP today?\n",
+      "event_link": "https://luma.com/is-mcp-dead",
+      "eventDate": "2026-03-24T18:00:00Z",
+      "event_type": "episode",
+      "media": {
+        "url": "https://www.youtube.com/watch?v=z5inaSXkiTU",
+        "type": "video/youtube"
+      },
+      "links": {
+        "youtube": "https://www.youtube.com/watch?v=z5inaSXkiTU",
+        "code": "https://github.com/hellovai/ai-that-works/tree/main/2026-03-24-mcp-is-dead"
+      },
+      "season": 2,
+      "episode": 50,
+      "isPast": true,
+      "isWorkshop": false
+    },
+    {
+      "folder": "2026-03-17-prompt-injections-guardrails",
+      "guid": "aitw-049",
+      "title": "Prompt Injections Guardrails",
+      "description": "A major risk factor in agentic coding is Prompt Injections. Tool output, document retrieval, system prompts all get inputted into the LLM and are all at risk of prompt injections.\n\nThis week on the podcast, we're going to cover how to handle this risk. We will discuss how to protect system prompts, avoid hijacking, and implementing ethical guards\n",
+      "event_link": "https://luma.com/prompt-injection-guardrails",
+      "eventDate": "2026-03-17T18:00:00Z",
+      "event_type": "episode",
+      "media": {
+        "url": "https://www.youtube.com/watch?v=zU8GpxgYDvc",
+        "type": "video/youtube"
+      },
+      "links": {
+        "youtube": "https://www.youtube.com/watch?v=zU8GpxgYDvc",
+        "code": "https://github.com/ai-that-works/ai-that-works/tree/main/2026-03-17-prompt-injections-guardrails"
+      },
+      "season": 2,
+      "episode": 49,
+      "isPast": true,
+      "isWorkshop": false
+    },
+    {
       "folder": "2026-03-10-claude-agent-skills-deep-dive",
       "guid": "aitw-048",
       "title": "Claude Agent Skills Deep Dive",
@@ -9,15 +113,16 @@
       "eventDate": "2026-03-10T18:00:00Z",
       "event_type": "episode",
       "media": {
-        "url": "https://www.youtube.com/playlist?list=PLi60mUelRAbFqfgymVfZttlkIyt0XHZjt",
+        "url": "https://www.youtube.com/watch?v=b5O6gb_Zuk8",
         "type": "video/youtube"
       },
       "links": {
+        "youtube": "https://www.youtube.com/watch?v=b5O6gb_Zuk8",
         "code": "https://github.com/ai-that-works/ai-that-works/tree/main/2026-03-10-claude-agent-skills-deep-dive"
       },
       "season": 2,
       "episode": 48,
-      "isPast": false,
+      "isPast": true,
       "isWorkshop": false
     },
     {
@@ -1067,15 +1172,15 @@
     }
   ],
   "meta": {
-    "totalEpisodes": 51,
-    "completedEpisodes": 47,
+    "totalEpisodes": 56,
+    "completedEpisodes": 52,
     "upcomingEpisodes": 1,
     "workshops": 3,
     "seasons": [
       1,
       2
     ],
-    "lastUpdated": "2026-03-06T17:38:59.530Z",
+    "lastUpdated": "2026-04-13T11:27:07.399Z",
     "generatedBy": "validate-metadata.ts"
   }
 }

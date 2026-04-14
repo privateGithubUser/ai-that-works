@@ -6,11 +6,11 @@ description: |
 event_link: https://luma.com/claude-skills-deep-dive
 eventDate: 2026-03-10T18:00:00Z
 media:
-  url: https://www.youtube.com/playlist?list=PLi60mUelRAbFqfgymVfZttlkIyt0XHZjt
+  url: https://www.youtube.com/watch?v=b5O6gb_Zuk8
   type: video/youtube
 links:
   code: https://github.com/ai-that-works/ai-that-works/tree/main/2026-03-10-claude-agent-skills-deep-dive
-  # no youtube link here yet
+  youtube: https://www.youtube.com/watch?v=b5O6gb_Zuk8
 season: 2
 episode: 48
 event_type: episode

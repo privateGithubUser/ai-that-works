@@ -16,8 +16,100 @@
       <link>https://github.com/ai-that-works/ai-that-works</link>
     </image>
     <atom:link href="https://github.com/ai-that-works/ai-that-works/raw/main/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 06 Mar 2026 17:38:59 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 11:27:07 GMT</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title><![CDATA[SSE Streaming]]></title>
+      <description><![CDATA[This week we build a real-time site summarizer using Server-Sent Events (SSE) streaming. We crawl a website, summarize each page with an LLM using BAML's semantic streaming, and stream partial results back to the browser as they're generated. We cover batched async concurrency, FastAPI SSE endpoints, and BAML's @stream.done/@stream.not_null attributes for controlling what streams and what waits.
+
+
+Watch: https://www.youtube.com/watch?v=9MFiATinGC0
+Code: https://github.com/hellovai/ai-that-works/tree/main/2026-04-07-sse-streaming
+Event: https://luma.com/evals-revisited
+
+AI That Works - Weekly conversations about production-ready AI engineering with live coding and Q&A.]]></description>
+      <link>https://www.youtube.com/watch?v=9MFiATinGC0</link>
+      <guid isPermaLink="false">aitw-052</guid>
+      <pubDate>Tue, 07 Apr 2026 18:00:00 GMT</pubDate>
+      <category>Technology</category>
+      <category>Software Engineering</category>
+      <category>Artificial Intelligence</category>
+      <enclosure url="https://www.youtube.com/watch?v=9MFiATinGC0" type="video/youtube" />
+    </item>
+    <item>
+      <title><![CDATA[No Vibes Allowed March Edition]]></title>
+      <description><![CDATA[This week on the podcast is our March episode of our no vibes allowed series! Join us to watch how we implement everything we discuss on a weekly basis in our company's product. Real code, real trade-offs, and real production systems
+
+
+Watch: https://www.youtube.com/watch?v=0rMG-3iiilc
+Code: https://github.com/ai-that-works/ai-that-works/tree/main/2026-03-31-no-vibes-march
+Event: https://luma.com/no-vibes-allowed-march-26
+
+AI That Works - Weekly conversations about production-ready AI engineering with live coding and Q&A.]]></description>
+      <link>https://www.youtube.com/watch?v=0rMG-3iiilc</link>
+      <guid isPermaLink="false">aitw-051</guid>
+      <pubDate>Tue, 31 Mar 2026 18:00:00 GMT</pubDate>
+      <category>Technology</category>
+      <category>Software Engineering</category>
+      <category>Artificial Intelligence</category>
+      <enclosure url="https://www.youtube.com/watch?v=0rMG-3iiilc" type="video/youtube" />
+    </item>
+    <item>
+      <title><![CDATA[MCP is Dead?]]></title>
+      <description><![CDATA[MCP isn't dead...or is it? This week on the podcast, we'll dive into this debate. What is the state of MCP today?
+
+
+Watch: https://www.youtube.com/watch?v=z5inaSXkiTU
+Code: https://github.com/hellovai/ai-that-works/tree/main/2026-03-24-mcp-is-dead
+Event: https://luma.com/is-mcp-dead
+
+AI That Works - Weekly conversations about production-ready AI engineering with live coding and Q&A.]]></description>
+      <link>https://www.youtube.com/watch?v=z5inaSXkiTU</link>
+      <guid isPermaLink="false">aitw-050</guid>
+      <pubDate>Tue, 24 Mar 2026 18:00:00 GMT</pubDate>
+      <category>Technology</category>
+      <category>Software Engineering</category>
+      <category>Artificial Intelligence</category>
+      <enclosure url="https://www.youtube.com/watch?v=z5inaSXkiTU" type="video/youtube" />
+    </item>
+    <item>
+      <title><![CDATA[Prompt Injections Guardrails]]></title>
+      <description><![CDATA[A major risk factor in agentic coding is Prompt Injections. Tool output, document retrieval, system prompts all get inputted into the LLM and are all at risk of prompt injections.
+
+This week on the podcast, we're going to cover how to handle this risk. We will discuss how to protect system prompts, avoid hijacking, and implementing ethical guards
+
+
+Watch: https://www.youtube.com/watch?v=zU8GpxgYDvc
+Code: https://github.com/ai-that-works/ai-that-works/tree/main/2026-03-17-prompt-injections-guardrails
+Event: https://luma.com/prompt-injection-guardrails
+
+AI That Works - Weekly conversations about production-ready AI engineering with live coding and Q&A.]]></description>
+      <link>https://www.youtube.com/watch?v=zU8GpxgYDvc</link>
+      <guid isPermaLink="false">aitw-049</guid>
+      <pubDate>Tue, 17 Mar 2026 18:00:00 GMT</pubDate>
+      <category>Technology</category>
+      <category>Software Engineering</category>
+      <category>Artificial Intelligence</category>
+      <enclosure url="https://www.youtube.com/watch?v=zU8GpxgYDvc" type="video/youtube" />
+    </item>
+    <item>
+      <title><![CDATA[Claude Agent Skills Deep Dive]]></title>
+      <description><![CDATA[Claude Code has exploded in its abilities over the past 8 months, and it can be hard to keep up. Seemingly overnight, everyone is discussing claude's skills, commands, agents, and subagents, and a lot of the literature out there already assumes you know what these are. This week on the podcast, we're going to go over all of them. We will discuss what each one is, how and when to use it, what the benefits and drawbacks are, and how they fit into the broader context engineering picture.
+
+
+Watch: https://www.youtube.com/watch?v=b5O6gb_Zuk8
+Code: https://github.com/ai-that-works/ai-that-works/tree/main/2026-03-10-claude-agent-skills-deep-dive
+Event: https://luma.com/claude-skills-deep-dive
+
+AI That Works - Weekly conversations about production-ready AI engineering with live coding and Q&A.]]></description>
+      <link>https://www.youtube.com/watch?v=b5O6gb_Zuk8</link>
+      <guid isPermaLink="false">aitw-048</guid>
+      <pubDate>Tue, 10 Mar 2026 18:00:00 GMT</pubDate>
+      <category>Technology</category>
+      <category>Software Engineering</category>
+      <category>Artificial Intelligence</category>
+      <enclosure url="https://www.youtube.com/watch?v=b5O6gb_Zuk8" type="video/youtube" />
+    </item>
     <item>
       <title><![CDATA[PII Redaction and Sensitive Data Scrubbing]]></title>
       <description><![CDATA[When building generative AI systems, one of the biggest risks companies face is the LLM accidentally exposing PII or PHI to an end user that isn't cleared to see it. This week on the podcast, we'll cover how to fix this problem. We'll discuss what prompting techniques you can use, and more importantly, we'll discuss how you can build evals to get comfortable with shipping these systems to users.
