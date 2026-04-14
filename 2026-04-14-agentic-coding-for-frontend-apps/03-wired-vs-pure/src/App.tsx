@@ -8,7 +8,7 @@ type Tab = 'search' | 'table' | 'todos'
 
 export function App() {
   const [activeTab, setActiveTab] = useState<Tab>('search')
-  const [theme, setTheme] = useState('solarized-dark')
+  const [theme, setTheme] = useState('catppuccin')
 
   const themes = [
     { value: 'solarized-dark', label: 'Solarized Dark' },

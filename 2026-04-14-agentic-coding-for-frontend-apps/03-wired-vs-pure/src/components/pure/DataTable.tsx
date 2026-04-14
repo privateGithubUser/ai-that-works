@@ -30,7 +30,7 @@ export function DataTable<T extends Record<string, unknown>>({
   }
 
   return (
-    <div className="border border-border font-mono w-full">
+    <div className="border border-border font-mono w-full overflow-hidden" style={{ borderRadius: '0.5rem' }}>
       {/* Table header */}
       <div
         className="grid border-b border-border bg-secondary text-xs text-muted-foreground uppercase tracking-wider"

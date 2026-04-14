@@ -8,7 +8,7 @@ const preview = {
   },
   decorators: [
     (Story, context) => {
-      const theme = context.globals.theme || 'solarized-dark'
+      const theme = context.globals.theme || 'catppuccin'
       return (
         <div data-theme={theme} className="bg-background text-foreground p-8 min-h-[200px] font-mono">
           <Story />
@@ -39,7 +39,7 @@ const preview = {
     },
   },
   initialGlobals: {
-    theme: 'solarized-dark',
+    theme: 'catppuccin',
   },
 }
 

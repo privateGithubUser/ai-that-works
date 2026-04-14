@@ -4,7 +4,7 @@ export const Button = ({ variant = 'primary', size = 'medium', children, onClick
   const baseStyles = {
     fontFamily: 'system-ui, sans-serif',
     fontWeight: 500,
-    borderRadius: '6px',
+    borderRadius: '100px',
     cursor: disabled ? 'not-allowed' : 'pointer',
     opacity: disabled ? 0.5 : 1,
     border: 'none',
