@@ -1,0 +1,8 @@
+{
+  "name": "agentic-coding-for-frontend-apps",
+  "private": true,
+  "scripts": {
+    "01": "cd 01-storybook && bun run storybook",
+    "02": "cd 02-storybook-riptide && bun run storybook"
+  }
+}

@@ -3,6 +3,7 @@
 
 import argparse
 import asyncio
+import json
 import sys
 from pathlib import Path
 
@@ -14,6 +15,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 load_dotenv(PROJECT_ROOT / ".env")
 
+from baml_client import b
 from src.deslop import deslop_document
 
 
@@ -26,6 +28,7 @@ Examples:
   uv run python tools/deslop/main.py path/to/document.md
   cat draft.md | uv run python tools/deslop/main.py -
   uv run python tools/deslop/main.py draft.md -o cleaned.md
+  uv run python tools/deslop/main.py draft.md --detect
 """,
     )
     parser.add_argument(
@@ -37,6 +40,11 @@ Examples:
         "--output-file",
         type=Path,
         help="Write the rewritten document to this file instead of stdout",
+    )
+    parser.add_argument(
+        "--detect",
+        action="store_true",
+        help="Identify slop patterns and print them as JSON to stdout (no rewrite)",
     )
     return parser.parse_args()
 
@@ -63,6 +71,12 @@ def write_output(output: str, output_file: Path | None) -> None:
 async def main() -> None:
     args = parse_args()
     document = read_input(args.input_path)
+
+    if args.detect:
+        patterns = await b.IdentifyDocumentSlop(document=document)
+        print(json.dumps([p.model_dump() for p in patterns], indent=2))
+        return
+
     rewritten_document = await deslop_document(document)
     write_output(rewritten_document, args.output_file)
 
