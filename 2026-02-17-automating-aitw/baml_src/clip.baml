@@ -17,7 +17,7 @@ class HighImpactClip {
   "#)
   start_timestamp string @description("The timestamp where the clip starts, e.g., '33:46'")
   end_timestamp string @description("The timestamp where the clip ends, e.g., '35:15'")
-  speaker string @description("The primary speaker in this clip")
+  speaker string @description("The primary speaker in this clip, or 'Multiple' if it's a back-and-forth exchange between two or more people")
   transcript_excerpt string @description(#"
     The exact text from the transcript that should be included in the clip.
     Include speaker names and timestamps as they appear in the original.
@@ -56,18 +56,21 @@ function ExtractHighImpactClips(
     Each high-impact clip should:
     1. Be self-contained and understandable without additional context
     2. Contain a concrete insight, surprising or counterintuitive fact, or actionable advice
-    3. Should be an "aha" moment - a moment where the speaker has a "lightbulb moment" or breakthrough realization
+    3. Should be an "aha" moment - a moment where someone has a "lightbulb moment" or breakthrough realization
     4. Be about 1 minute when spoken — NO longer than 2 minutes (roughly 150-300 words)
     5. Relate directly to one of the key takeaways
     6. Have a clear "hook" that grabs attention
     7. Avoid rambling setup - get to the point quickly
+    8. PREFER clips where two or more people are exchanging ideas — a genuine back-and-forth dialogue is more engaging than a solo monologue. That said, a single powerful insight is still valid if no good exchanges exist.
 
     Look for moments where the speakers:
+    - Build on each other's ideas — one person says something, the other extends or challenges it
+    - Have a genuine back-and-forth: questions, reactions, pushback, or "yes, and" moments
     - Share a surprising insight or counterintuitive advice
     - Explain something complex in a simple, memorable way
     - Give a concrete example that illustrates an abstract concept
-    - Have a "lightbulb moment" or breakthrough realization
-    - State a strong, quotable opinion
+    - Have a "lightbulb moment" or breakthrough realization — especially when one person sparks it in the other
+    - State a strong, quotable opinion that the other person reacts to
 
     IMPORTANT:
     - Return exactly 3 clips, ordered from most impactful to least impactful
@@ -90,7 +93,7 @@ class InMediasResClip {
   action_type string @description("The type of action being performed, e.g., 'live coding', 'whiteboarding', 'debugging', 'building', 'pair programming'")
   start_timestamp string @description("The timestamp where the clip starts, e.g., '33:46'")
   end_timestamp string @description("The timestamp where the clip ends, e.g., '35:15'")
-  speaker string @description("The primary person doing the action in this clip")
+  speaker string @description("The primary person doing the action in this clip, or 'Multiple' if two people are collaborating on the action together")
   transcript_excerpt string @description(#"
     The exact text from the transcript that should be included in the clip.
     Include speaker names and timestamps as they appear in the original.
@@ -128,19 +131,21 @@ function ExtractInMediasResClips(
     Find the THREE best portions of this transcript where someone is actively DOING something — live coding, whiteboarding, debugging, building, demonstrating — and the viewer is thrown right into the middle of the action.
 
     Each in-medias-res clip should:
-    1. Start mid-action — the speaker is already doing something when the clip begins, not explaining what they're about to do
+    1. Start mid-action — someone is already doing something when the clip begins, not explaining what they're about to do
     2. Show real, hands-on work: typing code, drawing diagrams, stepping through a debugger, wiring up components
     3. Be compelling to watch without any setup — the action itself is the hook
     4. Be about 1 minute when spoken — NO longer than 2 minutes (roughly 150-300 words) — long enough to show meaningful progress
-    5. Avoid moments that are purely conversational or explanatory — find the moments where things are actually being built or demonstrated
-    6. Ideally (but not necessarily) end at a satisfying moment — something works, something is revealed, a key piece clicks into place
+    5. Prefer moments where two people are working through something together — one driving, one reacting, asking questions, or suggesting changes. Collaborative action is more engaging than a solo demo.
+    6. Avoid moments that are purely one person explaining to dead air — find the moments where things are actually being built, demonstrated, or figured out together
+    7. Ideally (but not necessarily) end at a satisfying moment — something works, something is revealed, a key piece clicks into place
 
     Look for moments where:
-    - Someone starts writing code and you can follow along line by line
-    - A whiteboard or diagram is being drawn and explained simultaneously
-    - A bug is being tracked down and fixed in real time
-    - A tool or workflow is being demonstrated hands-on
-    - Something is assembled, wired together, or run for the first time
+    - Two people are pair-programming or debugging together, talking through what they're doing
+    - One person writes code while the other asks questions or reacts in real time
+    - A whiteboard or diagram is being drawn and discussed back-and-forth
+    - A bug is being tracked down and fixed collaboratively
+    - A tool or workflow is being demonstrated while someone else drives or responds
+    - Something is assembled, wired together, or run for the first time — and someone reacts to the result
 
     IMPORTANT:
     - Return exactly 3 clips, ordered from most compelling to least compelling
