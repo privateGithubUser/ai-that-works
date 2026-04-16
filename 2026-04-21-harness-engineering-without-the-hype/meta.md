@@ -1,6 +1,6 @@
 ---
 guid: aitw-054
-title: "harness engineering without the hype"
+title: "Harness Engineering Without the Hype"
 description: |
   This week on the pod we are going to cut through the hype around harness engineering and separate the signal from the noise. Join us to watch Dex crash out about this and expose the reality.
 event_link: https://luma.com/harness-eng-hype
