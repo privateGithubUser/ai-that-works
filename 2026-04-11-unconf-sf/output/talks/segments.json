@@ -1,0 +1,77 @@
+{
+  "total_talks": 9,
+  "talks": [
+    {
+      "talk_number": 1,
+      "title": "Building a Game Engine with AI Agents Without Knowing Rust",
+      "speaker_name": "Andrew",
+      "filename": "talk_01_building_a_game_engine_with_ai_agents_without_knowing_rust.txt",
+      "word_count": 1884,
+      "start_anchor": "Yeah, I think some of the subtext that's going on throughout this is don't outsource the thinking and what is slop really. It sort of depends"
+    },
+    {
+      "talk_number": 2,
+      "title": "Using Formal Verification and Solvers for an AI-Native Compiler",
+      "speaker_name": "Andrew Yates",
+      "filename": "talk_02_using_formal_verification_and_solvers_for_an_ai_native_compi.txt",
+      "word_count": 1822,
+      "start_anchor": "Hi, I'm Andrew Yates. It says on my name tag, Promoted AI. I was acquired by Dropbox. I worked at Dropbox for the last year."
+    },
+    {
+      "talk_number": 3,
+      "title": "Automating Go-to-Market (GTM) Workflows with a TUI and AI Agents",
+      "speaker_name": "Cyrus",
+      "filename": "talk_03_automating_go_to_market_gtm_workflows_with_a_tui_and_ai_agen.txt",
+      "word_count": 1096,
+      "start_anchor": "Sweet. Hello everyone. My name is Cyrus. I'm one of the co-founders of the synthesis company. We automate systematic literature reviews, which are like deep research workflows."
+    },
+    {
+      "talk_number": 4,
+      "title": "Will AI Assistance Be Open Like the Web or Closed Like iOS?",
+      "speaker_name": "Simon",
+      "filename": "talk_04_will_ai_assistance_be_open_like_the_web_or_closed_like_ios.txt",
+      "word_count": 1259,
+      "start_anchor": "All right. Um, the title of my talk is will AI assistance be open like the web or closed like iOS, this is something I really care about."
+    },
+    {
+      "talk_number": 5,
+      "title": "Challenges of Building Real-World Agents for Employee Relocation",
+      "speaker_name": "Rachel",
+      "filename": "talk_05_challenges_of_building_real_world_agents_for_employee_reloca.txt",
+      "word_count": 1185,
+      "start_anchor": "Cool. Hi I'm Rachel. I'm the founder of Gully. And just to give you some context, what we're building here is basically an AI personal relocation agent."
+    },
+    {
+      "talk_number": 6,
+      "title": "Recursive Language Models (RLMs) and Context as a Heads-Up Display",
+      "speaker_name": "Dan",
+      "filename": "talk_06_recursive_language_models_rlms_and_context_as_a_heads_up_dis.txt",
+      "word_count": 1022,
+      "start_anchor": "Yes. I'm going to be fast because my computer is also dying. Exactly. My name is Dan. I am from Boston, Massachusetts. I'm actually new here"
+    },
+    {
+      "talk_number": 7,
+      "title": "Building an Agent Memory Data Pipeline for Institutional Knowledge",
+      "speaker_name": "John",
+      "filename": "talk_07_building_an_agent_memory_data_pipeline_for_institutional_kno.txt",
+      "word_count": 1552,
+      "start_anchor": "I'll make this quick. How many of you have worked with agent memory at large companies? Some of you. Who can define agent memory? Actually, if you looked"
+    },
+    {
+      "talk_number": 8,
+      "title": "The Problem with 'Squishy Orchestrators' and the Slop Zone",
+      "speaker_name": "Christian",
+      "filename": "talk_08_the_problem_with_squishy_orchestrators_and_the_slop_zone.txt",
+      "word_count": 986,
+      "start_anchor": "Cool. Awesome. So I want to talk about a thing that I've been noodling on in my brain. It's kind of... It's a thing that I like to call squishy orchestrators."
+    },
+    {
+      "talk_number": 9,
+      "title": "Why You Shouldn't Build Your Own Agent-Based CRM (Probably)",
+      "speaker_name": "Vaibhav",
+      "filename": "talk_09_why_you_shouldnt_build_your_own_agent_based_crm_probably.txt",
+      "word_count": 4722,
+      "start_anchor": "All right. You shouldn't build your own open claw, probably. So we didn't want to hire a sales team. I was a sole founder for a while."
+    }
+  ]
+}

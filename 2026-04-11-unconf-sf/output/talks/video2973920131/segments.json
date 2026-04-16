@@ -1,0 +1,54 @@
+{
+  "total_talks": 7,
+  "talks": [
+    {
+      "talk_number": 1,
+      "title": "Using AI to Find a Race Condition in Rust Code",
+      "speaker_name": "Antonio",
+      "filename": "talk_01_using_ai_to_find_a_race_condition_in_rust_code.txt",
+      "word_count": 1766
+    },
+    {
+      "talk_number": 2,
+      "title": "How to Kill Code Reviews with Agents and Acceptance Criteria",
+      "speaker_name": "Ankit",
+      "filename": "talk_02_how_to_kill_code_reviews_with_agents_and_acceptance_criteria.txt",
+      "word_count": 2569
+    },
+    {
+      "talk_number": 3,
+      "title": "Fighting Code Slop with Internal Tooling and Automation",
+      "speaker_name": null,
+      "filename": "talk_03_fighting_code_slop_with_internal_tooling_and_automation.txt",
+      "word_count": 2926
+    },
+    {
+      "talk_number": 4,
+      "title": "Building Proactive AI Agents for Non-Technical Users",
+      "speaker_name": "Tyler",
+      "filename": "talk_04_building_proactive_ai_agents_for_non_technical_users.txt",
+      "word_count": 2339
+    },
+    {
+      "talk_number": 5,
+      "title": "Trusting an Agent with a Production Database at 3 AM",
+      "speaker_name": "Rob",
+      "filename": "talk_05_trusting_an_agent_with_a_production_database_at_3_am.txt",
+      "word_count": 1693
+    },
+    {
+      "talk_number": 6,
+      "title": "Whipping Agents into Shape with Static Analysis",
+      "speaker_name": "Ivan",
+      "filename": "talk_06_whipping_agents_into_shape_with_static_analysis.txt",
+      "word_count": 1797
+    },
+    {
+      "talk_number": 7,
+      "title": "Recruiting CS Talent and Automating Asset Generation",
+      "speaker_name": "Dylan",
+      "filename": "talk_07_recruiting_cs_talent_and_automating_asset_generation.txt",
+      "word_count": 2859
+    }
+  ]
+}

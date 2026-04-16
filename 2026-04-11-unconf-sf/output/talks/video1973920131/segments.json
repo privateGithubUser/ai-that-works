@@ -1,0 +1,59 @@
+{
+  "total_talks": 6,
+  "talks": [
+    {
+      "talk_number": 1,
+      "title": "How to Give a Good Talk and Not Pitch Your Startup",
+      "speaker_name": "Dex",
+      "filename": "talk_01_how_to_give_a_good_talk_and_not_pitch_your_startup.txt",
+      "word_count": 776,
+      "start_anchor": "This is how not to pitch your startup, how to give a talk that people here actually enjoy and learn from. No one wants to hear your pitch.",
+      "speaker_company": "human layer"
+    },
+    {
+      "talk_number": 2,
+      "title": "A Framework for Testing Agentic and Probabilistic Systems",
+      "speaker_name": "Vaibhav",
+      "filename": "talk_02_a_framework_for_testing_agentic_and_probabilistic_systems.txt",
+      "word_count": 3046,
+      "start_anchor": "So one of the things I worked on the past was I worked with the Face ID group. When you think about Face ID, all of us have it on the phone, so it's really easy to rationalize.",
+      "speaker_company": "Google"
+    },
+    {
+      "talk_number": 3,
+      "title": "Things Learned Making Efficient On-Device Local Search",
+      "speaker_name": "Sri",
+      "filename": "talk_03_things_learned_making_efficient_on_device_local_search.txt",
+      "word_count": 1853,
+      "start_anchor": "Yes. So, my name is Sri. I am the co-founder and CEO of Moss. We focus on extremely efficient local search. So, how we started is basically, like, let's...",
+      "speaker_company": "Moss"
+    },
+    {
+      "talk_number": 4,
+      "title": "Memory Beyond Markdown: An Agentic Control Plane for Graph Memory",
+      "speaker_name": "Gangadhar",
+      "filename": "talk_04_memory_beyond_markdown_an_agentic_control_plane_for_graph_me.txt",
+      "word_count": 2108,
+      "start_anchor": "Hey everyone, my name is Gangadhar. I've been working on knowledge graphs and graph memory for a while. This is the first time I'm talking out.",
+      "speaker_company": null
+    },
+    {
+      "talk_number": 5,
+      "title": "A Platform for Multi-Agent Peer-to-Peer Conversations",
+      "speaker_name": "Pearson",
+      "filename": "talk_05_a_platform_for_multi_agent_peer_to_peer_conversations.txt",
+      "word_count": 2441,
+      "start_anchor": "Totally. Hey everybody, I'm Pearson and I wanted to show today this platform that I called Cloudcast, but it's a multi-agent peer-to-peer conversation slash context sharing platform.",
+      "speaker_company": null
+    },
+    {
+      "talk_number": 6,
+      "title": "Live Demo of a Voice-Controlled AI for a Space Trading Game",
+      "speaker_name": "Gangadhar",
+      "filename": "talk_06_live_demo_of_a_voice_controlled_ai_for_a_space_trading_game.txt",
+      "word_count": 639,
+      "start_anchor": "you you you you you you you you welcome to the gradient bang universe I'm your friendly ship AI ready to explore and trade with you we need to recharge warp fuel",
+      "speaker_company": null
+    }
+  ]
+}

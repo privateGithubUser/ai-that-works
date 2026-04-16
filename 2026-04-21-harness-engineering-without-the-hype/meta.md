@@ -1,0 +1,17 @@
+---
+guid: aitw-054
+title: "harness engineering without the hype"
+description: |
+  This week on the pod we are going to cut through the hype around harness engineering and separate the signal from the noise. Join us to watch Dex crash out about this and expose the reality.
+event_link: https://luma.com/harness-eng-hype
+eventDate: 2026-04-21T18:00:00Z
+media:
+  url: https://www.youtube.com/playlist?list=PLi60mUelRAbFqfgymVfZttlkIyt0XHZjt
+  type: video/youtube
+links:
+  code: https://github.com/ai-that-works/ai-that-works
+  # no youtube link here yet
+season: 2
+episode: 54
+event_type: episode
+---

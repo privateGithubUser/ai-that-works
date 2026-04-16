@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "folder": "2026-04-21-harness-engineering-without-the-hype",
+      "guid": "aitw-054",
+      "title": "harness engineering without the hype",
+      "description": "This week on the pod we are going to cut through the hype around harness engineering and separate the signal from the noise. Join us to watch Dex crash out about this and expose the reality.\n",
+      "event_link": "https://luma.com/harness-eng-hype",
+      "eventDate": "2026-04-21T18:00:00Z",
+      "event_type": "episode",
+      "media": {
+        "url": "https://www.youtube.com/playlist?list=PLi60mUelRAbFqfgymVfZttlkIyt0XHZjt",
+        "type": "video/youtube"
+      },
+      "links": {
+        "code": "https://github.com/ai-that-works/ai-that-works"
+      },
+      "season": 2,
+      "episode": 54,
+      "isPast": false,
+      "isWorkshop": false
+    },
+    {
       "folder": "2026-04-14-agentic-coding-for-frontend-apps",
       "guid": "aitw-053",
       "title": "Agentic Coding for Frontend Apps",
@@ -17,7 +37,7 @@
       },
       "season": 2,
       "episode": 53,
-      "isPast": false,
+      "isPast": true,
       "isWorkshop": false
     },
     {
@@ -1172,7 +1192,7 @@
     }
   ],
   "meta": {
-    "totalEpisodes": 56,
+    "totalEpisodes": 57,
     "completedEpisodes": 52,
     "upcomingEpisodes": 1,
     "workshops": 3,
@@ -1180,7 +1200,7 @@
       1,
       2
     ],
-    "lastUpdated": "2026-04-13T11:27:07.399Z",
+    "lastUpdated": "2026-04-16T21:13:27.111Z",
     "generatedBy": "validate-metadata.ts"
   }
 }

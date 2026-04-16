@@ -12,16 +12,12 @@
 
 <div align="center">
 <h2>🦄 <strong>Next Episode</strong></h2>
-<h3><strong>Agentic Coding for Frontend Apps</strong></h3>
-<p><strong>Tuesday, April 14, 2026 at 10 AM PST</strong></p>
-<p><em>We do a lot of deep research and planning advice for building complex backend systems but in this week's episode, we're gonna talk about ways you can move faster and maintain quality for frontend code.
-
-While backend systems rely on good overall design and tend to be programatically verifiable, frontends require much tighter iteration loops and taste, and these explorations just don't suit themselves to complex up front planning. On the other hand, that shouldn't be an excuse to just regress to yoloing prompts. Good frontend code requires taste, judgement, and is just as vulnerable to a descent into chaotic spaghetti slop.
-
-Similar to our learning tests episode, this chat will cover small tactical side quests you can incorporate into your planning and development workflow to improve your frontend throughput. We'll primarily explore storybook as a vessel for interacting with and previewing UI, and approaches to separate presentation logic from business logic. By the end, you may find yourself wanting to ditch figma altogether and just write the components live.
+<h3><strong>harness engineering without the hype</strong></h3>
+<p><strong>Tuesday, April 21, 2026 at 10 AM PST</strong></p>
+<p><em>This week on the pod we are going to cut through the hype around harness engineering and separate the signal from the noise. Join us to watch Dex crash out about this and expose the reality.
 </em></p>
 
-<a href="https://luma.com/agentic-front-end-coding" target="_blank">
+<a href="https://luma.com/harness-eng-hype" target="_blank">
 <img src="https://img.shields.io/badge/🦄_REGISTER_NOW-Join_Live_Session-ff4444?style=for-the-badge&logo=calendar" alt="Register Now">
 </a>
 
@@ -105,10 +101,23 @@ Before joining, get familiar with our toolkit:
         <div style="margin-bottom: 2px;">
           <span style="background: #dc3545; color: white; padding: 2px 6px; border-radius: 3px; font-size: 11px; font-weight: bold;">UPCOMING</span>
         </div>
+        <div style="color: #666; font-size: 13px; margin-bottom: 4px;">2026-04-21</div>
+        <div style="font-size: 16px; line-height: 1.3; margin-bottom: 6px;"><strong>#54</strong>: harness engineering without the hype</div>
+        <div style="font-size: 13px; color: #666;">
+          <a href="https://github.com/ai-that-works/ai-that-works">code</a> • <a href="https://luma.com/harness-eng-hype">register</a>
+        </div>
+      </div>
+    </td><td><div style="padding: 8px 0; line-height: 1.5;">This week on the pod we are going to cut through the hype around harness engineering and separate the signal from the noise. Join us to watch Dex crash out about this and expose the reality.
+</div></td></tr>
+<tr><td>
+      <div style="padding: 8px 0;">
+        <div style="margin-bottom: 2px;">
+          <span style="background: #28a745; color: white; padding: 2px 6px; border-radius: 3px; font-size: 11px; font-weight: bold;">PAST</span>
+        </div>
         <div style="color: #666; font-size: 13px; margin-bottom: 4px;">2026-04-14</div>
         <div style="font-size: 16px; line-height: 1.3; margin-bottom: 6px;"><strong>#53</strong>: Agentic Coding for Frontend Apps</div>
         <div style="font-size: 13px; color: #666;">
-          <a href="./2026-04-14-agentic-coding-for-frontend-apps">code</a> • <a href="https://luma.com/agentic-front-end-coding">register</a>
+          <a href="./2026-04-14-agentic-coding-for-frontend-apps">code</a>
         </div>
       </div>
     </td><td><div style="padding: 8px 0; line-height: 1.5;">We do a lot of deep research and planning advice for building complex backend systems but in this week's episode, we're gonna talk about ways you can move faster and maintain quality for frontend code.

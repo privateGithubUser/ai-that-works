@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Automation tools for AI That Works podcast"
 requires-python = ">=3.11"
 dependencies = [
-    "baml-py==0.215.2",
+    "baml-py==0.220.0",
     "python-dotenv>=0.9.9",
     "google-genai>=1.0.0",
     "Pillow>=10.0.0",
