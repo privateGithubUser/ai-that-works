@@ -10,10 +10,11 @@ description: |
 event_link: https://luma.com/agentic-front-end-coding
 eventDate: 2026-04-14T18:00:00Z
 media:
-  url: https://www.youtube.com/playlist?list=PLi60mUelRAbFqfgymVfZttlkIyt0XHZjt
+  url: https://www.youtube.com/watch?v=adpUOpW85ns
   type: video/youtube
 links:
   code: https://github.com/ai-that-works/ai-that-works/tree/main/2026-04-14-agentic-coding-for-frontend-apps
+  youtube: https://www.youtube.com/watch?v=adpUOpW85ns
 season: 2
 episode: 53
 event_type: episode

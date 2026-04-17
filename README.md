@@ -12,7 +12,7 @@
 
 <div align="center">
 <h2>🦄 <strong>Next Episode</strong></h2>
-<h3><strong>harness engineering without the hype</strong></h3>
+<h3><strong>Harness Engineering Without the Hype</strong></h3>
 <p><strong>Tuesday, April 21, 2026 at 10 AM PST</strong></p>
 <p><em>This week on the pod we are going to cut through the hype around harness engineering and separate the signal from the noise. Join us to watch Dex crash out about this and expose the reality.
 </em></p>
@@ -102,7 +102,7 @@ Before joining, get familiar with our toolkit:
           <span style="background: #dc3545; color: white; padding: 2px 6px; border-radius: 3px; font-size: 11px; font-weight: bold;">UPCOMING</span>
         </div>
         <div style="color: #666; font-size: 13px; margin-bottom: 4px;">2026-04-21</div>
-        <div style="font-size: 16px; line-height: 1.3; margin-bottom: 6px;"><strong>#54</strong>: harness engineering without the hype</div>
+        <div style="font-size: 16px; line-height: 1.3; margin-bottom: 6px;"><strong>#54</strong>: Harness Engineering Without the Hype</div>
         <div style="font-size: 13px; color: #666;">
           <a href="https://github.com/ai-that-works/ai-that-works">code</a> • <a href="https://luma.com/harness-eng-hype">register</a>
         </div>
@@ -117,7 +117,7 @@ Before joining, get familiar with our toolkit:
         <div style="color: #666; font-size: 13px; margin-bottom: 4px;">2026-04-14</div>
         <div style="font-size: 16px; line-height: 1.3; margin-bottom: 6px;"><strong>#53</strong>: Agentic Coding for Frontend Apps</div>
         <div style="font-size: 13px; color: #666;">
-          <a href="./2026-04-14-agentic-coding-for-frontend-apps">code</a>
+          <a href="https://www.youtube.com/watch?v=adpUOpW85ns">watch</a> • <a href="./2026-04-14-agentic-coding-for-frontend-apps">code</a>
         </div>
       </div>
     </td><td><div style="padding: 8px 0; line-height: 1.5;">We do a lot of deep research and planning advice for building complex backend systems but in this week's episode, we're gonna talk about ways you can move faster and maintain quality for frontend code.

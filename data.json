@@ -3,7 +3,7 @@
     {
       "folder": "2026-04-21-harness-engineering-without-the-hype",
       "guid": "aitw-054",
-      "title": "harness engineering without the hype",
+      "title": "Harness Engineering Without the Hype",
       "description": "This week on the pod we are going to cut through the hype around harness engineering and separate the signal from the noise. Join us to watch Dex crash out about this and expose the reality.\n",
       "event_link": "https://luma.com/harness-eng-hype",
       "eventDate": "2026-04-21T18:00:00Z",
@@ -29,10 +29,11 @@
       "eventDate": "2026-04-14T18:00:00Z",
       "event_type": "episode",
       "media": {
-        "url": "https://www.youtube.com/playlist?list=PLi60mUelRAbFqfgymVfZttlkIyt0XHZjt",
+        "url": "https://www.youtube.com/watch?v=adpUOpW85ns",
         "type": "video/youtube"
       },
       "links": {
+        "youtube": "https://www.youtube.com/watch?v=adpUOpW85ns",
         "code": "https://github.com/ai-that-works/ai-that-works/tree/main/2026-04-14-agentic-coding-for-frontend-apps"
       },
       "season": 2,
@@ -1193,14 +1194,14 @@
   ],
   "meta": {
     "totalEpisodes": 57,
-    "completedEpisodes": 52,
+    "completedEpisodes": 53,
     "upcomingEpisodes": 1,
     "workshops": 3,
     "seasons": [
       1,
       2
     ],
-    "lastUpdated": "2026-04-16T21:13:27.111Z",
+    "lastUpdated": "2026-04-17T19:33:35.724Z",
     "generatedBy": "validate-metadata.ts"
   }
 }
